@@ -1,0 +1,71 @@
+/*ヘッダー*/
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.header-contents{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*ヘッダーのコンテンツ部分*/
+.nav-list {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/*本命コンテンツの部分*/
+/*1つめ*/
+.contents-title{
+    text-align: center;
+}
+
+.contents1-name{
+    color: blue;
+}
+
+/*2つめ*/
+
+#contents2{
+    padding: 20px;
+}
+
+#contents2 > .contests2 ol{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+
+/*3つめ*/
+
+#contents3{
+    padding: 20px;
+}
+
+#contents3 > .contents3 ol{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+
+
+/*フッター*/
+
+#footer{
+    width: 100%;
+}
+
+.footer-contents{
+    text-align: center;
+    background-color: lightblue;
+    padding: 30px;
+    margin: 5 auto;
+}
