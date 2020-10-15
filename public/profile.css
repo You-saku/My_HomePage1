@@ -2,10 +2,14 @@
 header {
     padding: 20px;
     text-align: center;
+    height: 200px;
+    background: url(images/pc_display3.png);
 }
 
 .header-contents{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-size: 30px;
 }
 
 /*ヘッダーのコンテンツ部分*/
@@ -19,53 +23,164 @@ header {
 .nav-list-item {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+}
+
+
+.nav-list-item > .link-title{
+    margin: 20px;
+    padding: 15px;
+    color: black;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.nav-list-item > .link-title:hover{
+    color: crimson;
+    padding: 20px;
+    background-color: lightseagreen;
+    border-style: solid;    
+    border-color: blue;
+}
+
+
+/*本命コンテンツタイトル*/
+.contents-title{
+    font-size: 20px;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: center;
+    color: crimson;
+    background-color: gray;
+    padding: 15px;
+}
+
+body{
+    width: 100vw;
 }
 
 /*本命コンテンツの部分*/
 /*1つめ*/
-.contents-title{
-    text-align: center;
+
+.contents1{
+    background-image: url(images/background.png);
+    position: relative;
 }
 
-.contents1-name{
+p.contents1-name{
     color: blue;
+}
+
+#contents1 > .contents1 > ol{
+    display: inline-block;
+}
+
+.contents1-list2-item{
+    position: relative;
+    top: 30px;
+}
+
+.contents1-list2{
+    background-color: lightblue;
+    border-radius: 10%;
+    position: relative;
+    top: 20px;
+    left: 110px;
+}
+
+.contents1-value{
+    color: white;
+}
+
+.image-name{
+    text-align: center;
+    position: relative;
+    bottom: 11px;
+    right: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#yusaku-image{
+    position: relative;
+    right: 20px;
+    bottom: 15px;
+    border-radius: 20%;
 }
 
 /*2つめ*/
 
-#contents2{
-    padding: 20px;
+.contents2{
+    background-image: url(images/background.png);
+    padding: 10px;
 }
 
-#contents2 > .contests2 ol{
+
+#contents2 > .contents2 ol{
     display: inline-block;
     margin: 0 20px;
 }
 
+.skill-title{
+    position: relative;
+    right: 30px;
+    color: blue;
+}
+
+.contents2-list1-item{
+    color: white;
+}
+
+.contents2-list2-item{
+    color: white;
+}
+
+.contents2-list3-item{
+    color: white;
+}
 
 /*3つめ*/
 
-#contents3{
-    padding: 20px;
+.contents3{
+    background-image: url(images/background.png);
+    padding: 10px;
 }
 
 #contents3 > .contents3 ol{
     display: inline-block;
     margin: 0 20px;
+    position: relative;
+    left: 250px;
 }
 
+.other-title{
+    position: relative;
+    left: 30px;
+    color: blue;
+}
 
+.contents3-list1-item{
+    color: white;
+}
+
+.contents3-list2-item{
+    color: white;
+}
+
+.contents3-list3-item{
+    color: white;
+}
 
 /*フッター*/
 
 #footer{
     width: 100%;
+    margin: auto;
 }
 
 .footer-contents{
     text-align: center;
+    vertical-align: 10%;
     background-color: lightblue;
-    padding: 30px;
-    margin: 5 auto;
+    position: relative;
+    bottom: 0px;
+    padding: 15px;
 }

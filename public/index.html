@@ -5,61 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" type="text/css" href="profile.css">
+    <!--Google-font-->
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--ヘッダー-->
     <header id="header">
-        <p class="header-contents">Hello !! &nbsp;&nbsp; You-saku Profile Pages.<br>
-        If you are interested in me, please contact me!!</p>
             <ul class="nav-list">
-                <li class="nav-list-item"><a href="https://github.com/You-saku">GitHub</a></li>
-                <li class="nav-list-item"><a href="https://twitter.com/Usaku33981514">Twitter</a></li>
-                <li class="nav-list-item"><a href="https://www.facebook.com/profile.php?id=100027706541014">Facebook</a></li>
+                <li class="nav-list-item"><a class="link-title" href="https://github.com/You-saku">GitHub</a></li>
+                <li class="nav-list-item"><a class="link-title" href="https://twitter.com/Usaku33981514">Twitter</a></li>
+                <li class="nav-list-item"><a class="link-title" href="https://www.facebook.com/profile.php?id=100027706541014">Facebook</a></li>
             </ul>
+            <p class="header-contents">Hello !! &nbsp;&nbsp; You-saku Profile Pages.<br>
+                If you are interested in me, please contact me!!</p>
     </header>
 
     <!--body本体-->
     <!--1つ目の中身(基本情報)-->
     <div id="contents1">
-        <p class="contents-title">基本情報</p>
-        <hr width="100"></hr>
-        <ol class="contents1-list1">
-            <ul class="contents1-list1-item">
-                <p class="contents1-name">名前</p>
-                <p>関根優作(Yusaku Sekine)</p>
-            </ul>
-            <ul class="contents1-list1-item">
-                <p class="contents1-name">生年月日</p>
-                <p>2020年 10月 09日</p>
-            </ul>
-            <ul class="contents1-list1-item">
-                <p class="contents1-name">出身地</p>
-                <p>群馬県</p>
-            </ul>
-            <ul class="contents1-list1-item">
-                <p class="contents1-name">夢,成し遂げたいこと</p>
-                <p>プログラミング技術を活かして開発がしたい。<br>
-                    技術を享受する側ではなく、与える側(技術を使って誰かにもたらす側)になりたい。
-                </p>
-            </ul>
-            <ul class="contents1-list1-item">
-                <p class="contents1-name">このページを作った理由</p>
-                <p>HTML,CSSの勉強とGitLabを使ったデプロイを行うために作成しました。<br>
-                    できるだけモダンなデザインもこのページに盛り込んでいきたい。
-                </p>
-            </ul>
-        </ol>
-        <ol class="contents1-list2">
-            <ul class="contents1-list2-item"></ul>
-        </ol>
+        <div class="contents-title">
+            基本情報
+            <hr width="100"></hr>
+        </div>
+        <div class="contents1">
+            <ol class="contents1-list1">
+                <ul class="contents1-list1-item">
+                    <p class="contents1-name">名前</p>
+                    <p class="contents1-value">関根優作(Yusaku Sekine)</p>
+                </ul>
+                <ul class="contents1-list1-item">
+                    <p class="contents1-name">生年月日</p>
+                    <p class="contents1-value">2020年 10月 09日</p>
+                </ul>
+                <ul class="contents1-list1-item">
+                    <p class="contents1-name">出身地</p>
+                    <p class="contents1-value">群馬県</p>
+                </ul>
+                <ul class="contents1-list1-item">
+                    <p class="contents1-name">夢,成し遂げたいこと</p>
+                    <p  class="contents1-value">プログラミング技術を活かして開発がしたい。<br>
+                        技術を享受する側ではなく、与える側(技術を使って誰かにもたらす側)になりたい。
+                    </p>
+                </ul>
+                <ul class="contents1-list1-item">
+                    <p class="contents1-name">このページを作った理由</p>
+                    <p class="contents1-value">HTML,CSSの勉強とGitLabを使ったデプロイを行うために作成しました。<br>
+                        できるだけモダンなデザインもこのページに盛り込んでいきたい。
+                    </p>
+                </ul>
+            </ol>
+            <ol class="contents1-list2">
+                <p class="image-name">本人写真</p>
+                <img id="yusaku-image" src="./images/yusaku2.png">
+            </ol>
+        </div>
     </div>
 
     <!--2つ目の中身(所有スキル)-->
     <div id="contents2">
-        <p class="contents-title">所有スキル</p>
-        <hr width="100"></hr>
+        <div class="contents-title">
+            所有スキル
+            <hr width="100"></hr>
+        </div>
         <!--横並びに表示-->
-        <div class="contests2">
+        <div class="contents2">
             <ol class="contents2-list">
                 <p class="skill-title">資格</p>
                 <li class="contents2-list1-item">ITパスポート</li>
@@ -94,8 +103,10 @@
 
     <!--3つ目の中身-->
     <div id="contents3">
-        <p class="contents-title">雑談情報(趣味,好きなこと,今後やりたいこと)</p>
-        <hr width="100"></hr>
+        <div class="contents-title">
+            雑談情報(趣味,好きなこと,今後やりたいこと)
+            <hr width="100"></hr>
+        </div>
         <div class="contents3">
             <ol class="contents3-list">
                 <p class="other-title">趣味</p>
@@ -131,7 +142,7 @@
     
     <!--フッター-->
     <footer id="footer">
-        <p class="footer-contents">© All rights reserved by You-saku.</p>
+        <div class="footer-contents">© All rights reserved by You-saku.</div>
     </footer>
 </body>
 </html>
