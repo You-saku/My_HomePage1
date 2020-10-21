@@ -3,7 +3,7 @@ header {
     padding: 20px;
     text-align: center;
     height: 200px;
-    background: url(images/pc_display3.png);
+    background: url(../images/pc_display3.png);
 }
 
 .header-contents{
@@ -62,7 +62,7 @@ body{
 /*1つめ*/
 
 .contents1{
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     position: relative;
 }
 
@@ -109,7 +109,7 @@ p.contents1-name{
 /*2つめ*/
 
 .contents2{
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     padding: 10px;
 }
 
@@ -140,7 +140,7 @@ p.contents1-name{
 /*3つめ*/
 
 .contents3{
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     padding: 10px;
 }
 
