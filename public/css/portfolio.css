@@ -1,0 +1,27 @@
+.link{
+    color: yellow;
+}
+
+.link:hover{
+    color: orange;
+}
+
+#intro{
+    background-image: url("../images/background.png");
+    color: white;
+    padding: 10px;
+}
+
+.contents-title{
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px black;
+    font-family: "Sawarabi Mincho";
+    text-align: center;
+    color: red;
+
+}
+
+.contents-discription{
+    text-align: center;
+}

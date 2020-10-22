@@ -61,6 +61,19 @@ body{
 /*本命コンテンツの部分*/
 /*1つめ*/
 
+.goto_portfolio{
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.goto_portfolio:hover{
+    color: orange;
+    font-size: 21px;
+    text-shadow: 1px 1px 3px orange;
+}
+
 .contents1{
     background-image: url(../images/background.png);
     position: relative;
