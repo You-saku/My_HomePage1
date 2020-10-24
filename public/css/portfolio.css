@@ -38,6 +38,11 @@
     text-align: center;
 }
 
+#portfolio_img{
+    width: 70%;
+    height: auto;
+}
+
 #number-1{
     border-width: 7px;
     border-style: solid;
