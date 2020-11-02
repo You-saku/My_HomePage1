@@ -43,20 +43,15 @@
     height: auto;
 }
 
-#number-1{
+#number{
     border-width: 7px;
     border-style: solid;
     border-color: skyblue lightseagreen;
 }
 
-#number-2{
-    border-width: 7px;
-    border-style: solid;
-    border-color: skyblue lightseagreen;
-}
-
-#number-3{
-    border-width: 7px;
-    border-style: solid;
-    border-color: skyblue lightseagreen;
+.portfolio-title{
+    color: darkblue;
+    font-family: "Sawarabi Mincho";
+    font-weight: 200;
+    font-size: 30px;
 }
