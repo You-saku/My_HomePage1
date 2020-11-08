@@ -10,6 +10,7 @@
     <link rel="icon" href="../images/favicon.ico">
 </head>
 <body>
+    <script type="text/javascript" src="../scripts/portfolio.js"></script>
     <div id="contents">
         <!--ここからコンテンツ記述-->
         <div id="intro">
@@ -22,10 +23,22 @@
                 アドバイスや改善点がありましたら<a class="link" href="https://twitter.com/Usaku33981514" target="blank">Twitterアカウント</a>までご連絡いただければ幸いです。<br>
                 <a class="link" href="/you-saku_profile">ホーム画面へ</a>
             </p>
+            <br>
+            <nav id="index">
+                <div>
+                    <ul>
+                        <!-- javascript:void(0) は ページの遷移を起こさない -->
+                        <li><a href="javascript:void(0);" onclick="ScrollWindow('number1');">1つ目の作品へ</a></li>
+                        <li><a href="javascript:void(0);" onclick="ScrollWindow('number2');">2つ目の作品へ</a></li>
+                        <li><a href="javascript:void(0);" onclick="ScrollWindow('number3');">3つ目の作品へ</a></li>
+                        <li><a href="javascript:void(0);" onclick="ScrollWindow('number4');">4つ目の作品へ</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
         <br>
         <div id="show_app">
-            <div id="number">
+            <div id="number1">
                 <p class="portfolio-title">1.自作メモ帳</p>
                 <img id="portfolio_img" src="../images/ポートフォリオ/メモ帳.png" alt="アプリ画像">
                 <p class="portfolio-description">
@@ -39,7 +52,7 @@
                 <a class="link2" href="https://ysnotepad.herokuapp.com/" target="blank">リンク</a>
             </div>
             <br>
-            <div id="number">
+            <div id="number2">
                 <p class="portfolio-title">2.嵐の顔認識アプリ</p>
                 <img id="portfolio_img" src="../images/ポートフォリオ/嵐顔認識.png" alt="アプリ画像">
                 <p class="portfolio-description">
@@ -55,7 +68,7 @@
                 <a class="link2" href="https://github.com/You-saku/Python_Practices/blob/master/AI_Scripts/ARASI.py" target="blank">ソースコード(画像認識部分)</a>
             </div>
             <br>    
-            <div id="number">
+            <div id="number3">
                 <p class="portfolio-title">3.漫画管理アプリ(個人使用)</p>
                 <img id="portfolio_img" src="../images/ポートフォリオ/comicmanager.png" alt="アプリ画像">
                 <p class="portfolio-description">
@@ -74,7 +87,7 @@
                 <a class="link2" href="https://github.com/You-saku/CominManager" target="blank">ソースコード</a>
             </div>
             <br>
-            <div id="number">
+            <div id="number4">
                 <p class="portfolio-title">4.LINE ChatBot</p>
                 <img id="portfolio_img" src="../images/ポートフォリオ/LINEBot.jpg" alt="アプリ画像">
                 <p class="portfolio-description">

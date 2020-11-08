@@ -1,3 +1,5 @@
+/*リンクのcss*/
+
 .link{
     color: yellow;
 }
@@ -14,6 +16,7 @@
     color: orange;
 }
 
+/*説明部分のcss*/
 #intro{
     background-image: url("../images/background.png");
     color: white;
@@ -34,6 +37,21 @@
     text-align: center;
 }
 
+#index > div > ul{
+    text-align: center;
+}
+
+#index > div > ul > li{
+    display: inline-block;
+    /*　上,右,下,左 の順番*/
+    margin: 0px 10px 0px 10px;
+}
+
+#index > div > ul > li > a{
+    color: yellow;
+}
+
+/*各作品のcss*/
 #show_app{
     text-align: center;
 }
@@ -43,7 +61,25 @@
     height: auto;
 }
 
-#number{
+#number1{
+    border-width: 7px;
+    border-style: solid;
+    border-color: skyblue lightseagreen;
+}
+
+#number2{
+    border-width: 7px;
+    border-style: solid;
+    border-color: skyblue lightseagreen;
+}
+
+#number3{
+    border-width: 7px;
+    border-style: solid;
+    border-color: skyblue lightseagreen;
+}
+
+#number4{
     border-width: 7px;
     border-style: solid;
     border-color: skyblue lightseagreen;
