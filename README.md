@@ -10,3 +10,6 @@ I upload another page(present my portfolios).
 <h2>2020/10/29,30</h2>
 I create favicon.<br>
 And, I correct favicon. So, My favicon is not bad.
+<h2>2020/11/09</h2>
+Add JavaScript file<br>
+So, My homepage gets move action by js(JavaScript).
