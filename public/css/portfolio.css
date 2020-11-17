@@ -51,14 +51,27 @@
     color: yellow;
 }
 
+#index > div > ul > li > a:hover{
+    color: orange;
+}
+
+/*トップページへ移動するリンクについて*/
+p > .to_top{
+    color: red;
+    font-size: 20px;
+}
+
 /*各作品のcss*/
 #show_app{
     text-align: center;
 }
 
 #portfolio_img{
-    width: 70%;
-    height: auto;
+    width: 65%;
+    height: 65%;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: black;
 }
 
 #number1{

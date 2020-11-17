@@ -13,3 +13,5 @@ And, I correct favicon. So, My favicon is not bad.
 <h2>2020/11/09</h2>
 Add JavaScript file<br>
 So, My homepage gets move action by js(JavaScript).
+<h2>2020/11/17</h2>
+Correct My Homepage.<br>
