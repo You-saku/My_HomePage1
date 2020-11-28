@@ -6,6 +6,11 @@ header {
     background: url(../images/pc_display3.png);
 }
 
+header > div{
+    color: aliceblue;
+    font-size: 15px;
+}
+
 .header-contents{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: blue;
