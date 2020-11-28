@@ -3,18 +3,19 @@ header {
     padding: 20px;
     text-align: center;
     height: 200px;
-    background: url(../images/pc_display3.png);
+    background: url(../images/header_image2_v2.png);
 }
 
 header > div{
-    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
     font-size: 15px;
 }
 
 .header-contents{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: blue;
-    font-size: 30px;
+    color: black;
+    font-size: 15px;
 }
 
 /*ヘッダーのコンテンツ部分*/
@@ -55,7 +56,7 @@ header > div{
     font-family: 'Sawarabi Mincho', sans-serif;
     text-align: center;
     color: crimson;
-    background-color: gray;
+    background-color: floralwhite;
     padding: 15px;
 }
 
@@ -72,6 +73,7 @@ body{
     font-size: 20px;
     font-family: 'Sansita Swashed', cursive;
     font-family: 'Sawarabi Mincho', sans-serif;
+    border-style: dashed;
 }
 
 .goto_portfolio:hover{
