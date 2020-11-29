@@ -239,6 +239,24 @@ p.contents1-name{
     color: white;
 }
 
+/*SNS紹介部分*/
+#sns{
+    background-image: url(../images/background.png);
+}
+
+#sns_contents > ol{
+    display: inline-block;
+}
+
+#share_button{
+    color: white;
+}
+
+#twitter_timeline{
+    position: relative;
+    left: 30%;
+}
+
 /*フッター*/
 
 #footer{

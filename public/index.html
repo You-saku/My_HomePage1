@@ -7,16 +7,24 @@
     <link rel="stylesheet" type="text/css" href="css/profile.css">
     <!--Google-font-->
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    
     <!--ファビコン設定 -->
     <link rel="icon" href="images/favicon.ico">
-<!-- jQuery追加 -->
+    
+    <!-- jQuery追加 -->
     <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous">
     </script>
-<!--JavaScript追加-->
+    <!--JavaScript追加-->
     <script type="text/javascript" src="scripts/profile.js"></script>
+
+    <!--Twitterシェアボタン追加-->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <!--facebookシェアボタン追加-->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v9.0" nonce="4tjziqfl"></script>
 
 </head>
 <body>
@@ -158,7 +166,36 @@
         </div>
     </div>
     <!--body本体終了-->
-    
+
+    <!--SNS部分-->
+    <div id="sns">
+        <div class="contents-title">
+            SNS情報
+            <hr width="100"></hr>
+        </div>
+        <div id="sns_contents">
+            <!--SNSシェアボタン-->
+            <ol id="share_button">
+                <ul>
+                    SNSでのシェアも可能です。<br>もしよろしければシェアしてください。
+                </ul>
+                <br>
+
+                <ul>
+                    Twitter<br>
+                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </ul>
+                <ul>
+                    facebook<br>
+                    <div class="fb-share-button" data-href="https://you-saku.gitlab.io/you-saku_profile/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyou-saku.gitlab.io%2Fyou-saku_profile%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">シェア</a></div>
+                </ul>
+            </ol>
+
+            <ol id="twitter_timeline">
+                <a class="twitter-timeline" data-width="400" data-height="300" href="https://twitter.com/Usaku33981514?ref_src=twsrc%5Etfw">Tweets by Usaku33981514</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </ol> 
+        </div>
+    </div>
     <!--フッター-->
     <footer id="footer">
         <div class="footer-contents">© All rights reserved by You-saku.</div>
