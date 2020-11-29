@@ -15,3 +15,7 @@ Add JavaScript file<br>
 So, My homepage gets move action by js(JavaScript).
 <h2>2020/11/17</h2>
 Correct My Homepage.<br>
+<h2>2020/11/29</h2>
+I will upgrade this homepage. I upload jQuery script. So, This page can move. <br>
+Next phase, I learn OGP. Consider SNS share.
+
