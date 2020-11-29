@@ -36,13 +36,13 @@ header > div{
     margin: 20px;
     padding: 10px;
     color: black;
-    background-color: lightblue;
+    background-color: dodgerblue;
     border-radius: 20px;
 }
 
 .nav-list-item > .link-title:hover{
     color: crimson;
-    padding: 20px;
+    padding: 10px;
     background-color: lightseagreen;
     border-style: solid;    
     border-color: blue;
@@ -78,7 +78,7 @@ body{
 
 .goto_portfolio:hover{
     color: orange;
-    font-size: 21px;
+    font-size: 20px;
     text-shadow: 1px 1px 3px orange;
 }
 
@@ -95,6 +95,17 @@ p.contents1-name{
     display: inline-block;
 }
 
+.contents1-list1-item{
+    opacity: 0;
+    transform : translateX(-50px);
+    transition : all 1500ms;
+}
+
+.contents1-list1-item.visible{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
 .contents1-list2-item{
     position: relative;
     top: 30px;
@@ -106,6 +117,21 @@ p.contents1-name{
     position: relative;
     top: 20px;
     left: 110px;
+    /**/
+    opacity: 0;
+    transform: translate(0,35px);
+    transition: all 1500ms;
+}
+
+.contents1-list2.visible{
+    background-color: lightblue;
+    border-radius: 10%;
+    position: relative;
+    top: 20px;
+    left: 110px;
+    /**/
+    opacity: 1;
+    transform: translate(0,0);
 }
 
 .contents1-value{
@@ -148,6 +174,17 @@ p.contents1-name{
     color: blue;
 }
 
+.contents2-list{
+    opacity: 0;
+    transform : translateX(-50px);
+    transition : all 1500ms;
+}
+
+.contents2-list.visible{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
 .contents2-list1-item{
     color: white;
 }
@@ -177,6 +214,17 @@ p.contents1-name{
     position: relative;
     right: 30px;
     color: blue;
+}
+
+.contents3-list{
+    opacity: 0;
+    transform : translateX(-50px);
+    transition : all 1500ms;
+}
+
+.contents3-list.visible{
+    opacity: 1;
+    transform: translate(0px,0px);
 }
 
 .contents3-list1-item{
