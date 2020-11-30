@@ -18,4 +18,7 @@ Correct My Homepage.<br>
 <h2>2020/11/29</h2>
 I will upgrade this homepage. I upload jQuery script. So, This page can move. <br>
 Next phase, I learn OGP. Consider SNS share.
+<h2>2020/11/30</h2>
+I implemented OGP(Twitter, Facebook).<br>
+Also, I notified uploading profile page by Twitter and Facebook.
 
