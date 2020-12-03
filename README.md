@@ -21,4 +21,5 @@ Next phase, I learn OGP. Consider SNS share.
 <h2>2020/11/30</h2>
 I implemented OGP(Twitter, Facebook).<br>
 Also, I notified uploading profile page by Twitter and Facebook.
-
+<h2>2020/12/3</h2>
+I add other portfolio.<br>

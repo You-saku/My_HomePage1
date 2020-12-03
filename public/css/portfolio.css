@@ -98,6 +98,12 @@ p > .to_top{
     border-color: skyblue lightseagreen;
 }
 
+#number5{
+    border-width: 7px;
+    border-style: solid;
+    border-color: skyblue lightseagreen;
+}
+
 .portfolio-title{
     color: darkblue;
     font-family: "Sawarabi Mincho";
