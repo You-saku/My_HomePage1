@@ -110,3 +110,19 @@ p > .to_top{
     font-weight: 200;
     font-size: 30px;
 }
+
+
+/*フッター*/
+#footer{
+    width: 100%;
+    margin: auto;
+}
+
+.footer-contents{
+    text-align: center;
+    vertical-align: 10%;
+    background-color: lightblue;
+    position: relative;
+    bottom: 0px;
+    padding: 15px;
+}
