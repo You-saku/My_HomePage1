@@ -7,7 +7,7 @@ $(function(){
 			var elemPos = $(this).offset().top;//webページの一番上から.fadein のタグの一番上までの値を取得(上)
 			var scroll = $(window).scrollTop();//現在のスクロール位置(一番上)
 			var windowHeight = $(window).height();//web上で見えている範囲の高さ(増減はする)
-			if (scroll > elemPos- (windowHeight/1.3)){
+			if (scroll > elemPos- (windowHeight/0.8)){
                 $(this).addClass('visible');//クラス名に scrollinを追加する
                 console.log($(this));
             }
