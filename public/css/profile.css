@@ -3,7 +3,7 @@ header {
     padding: 20px;
     text-align: center;
     height: 200px;
-    background: url(../images/header_image2.png);
+    background: url(../images/header_img.png);
 }
 
 header > div{
@@ -254,15 +254,15 @@ p.contents1-name{
 #account_contents > ol{
     display: inline-block;
     position: relative;
-    left: 10%;
-    margin: 0px 50px;
+    left: 110px;
+    margin: 0px 20px;
 }
 
 #share_button{
     position: relative;
-    left: 80px;
+    right: 30%;
     margin: 5px;
-    padding: 8px;
+    padding: 5px;
     color: white;
 }
 
@@ -292,7 +292,7 @@ p.contents1-name{
 
 #github > ul > p{
     position: relative;
-    left: 25px;
+    left: 65px;
 }
 
 #github-link{
@@ -310,6 +310,7 @@ p.contents1-name{
 #twitter_timeline{
     position: relative;
     top: 10px;
+    right: 20px;
 }
 
 /*フッター*/
